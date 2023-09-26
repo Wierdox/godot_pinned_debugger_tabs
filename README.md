@@ -1,0 +1,1 @@
+# godot_pinned_debugger_tabs
