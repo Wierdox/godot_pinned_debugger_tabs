@@ -10,4 +10,4 @@ This plugin overrides `run/output/always_open_output_on_play`.
 
 If the plugin seems to fail, try editing the first variable `time_until_open`, it might depend on your PC.
 
-For 3.x users, make note that this plugin will cancel out the yellow/red icon on Errors tab if pinned, and the pin may disapear on project run. This is only visual though.
+For 3.x users, make note that this plugin will cancel out the yellow/red icon on Errors tab if pinned, and the pin may disapear on project run. This is only visual though. And due to the feature not existing, pressing the blue pin on a pinned tab will do nothing.
