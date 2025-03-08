@@ -24,6 +24,7 @@ func _enter_tree() -> void:
 		debugger = dumb_ref.get_parent().get_parent().get_parent().get_child(1)
 	debugger_tabs = debugger.get_child(0).get_child(0).get_child(0)
 	remove_control_from_bottom_panel(bottom_control)
+	bottom_control.queue_free()
 	
 	debugger_tabs.tab_button_pressed.connect(_on_debugger_tab_button_pressed)
 	debugger_tabs.tab_changed.connect(_on_debugger_tab_changed)
